@@ -10,4 +10,17 @@ public class GenericTestClass<T> {
 	{
 		this.objetoGenerico = Objeto;
 	}
+
+	public T getObjetoGenerico() {
+		return objetoGenerico;
+	}
+
+	public void setObjetoGenerico(T objetoGenerico) {
+		this.objetoGenerico = objetoGenerico;
+	}
+	
+	public void imprimir()
+	{
+		System.out.println(this.objetoGenerico.toString());
+	}
 }
